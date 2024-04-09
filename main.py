@@ -9,5 +9,5 @@ app = Flask(__name__)
 def render():
     word = brown.tagged_words()[8]
 
-    return f"""<p>X-bar parse tree generator</p>
+    return f"""<p>X-bar parse tree generator - Version 0.01</p>
     <p>Sample brown word {escape(word)}</p>"""
