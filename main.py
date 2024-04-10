@@ -1,13 +1,11 @@
-from flask import Flask
+import datetime
+from flask import Flask, render_template
+from markupsafe import escape
 import nltk
 from nltk.corpus import brown
-from markupsafe import escape
 
 app = Flask(__name__)
 
 @app.route("/")
 def render():
-    word = brown.tagged_words()[8]
-
-    return f"""<p>X-bar parse tree generator - Version 0.01</p>
-    <p>Sample brown word {escape(word)}</p>"""
+    return render_template('view.html', utc_dt=datetime.datetime.utcnow())
