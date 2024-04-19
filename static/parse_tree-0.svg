@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" lang="en" width="320" height="375">
+  <rect x="0" y="0" width="320" height="375" fill="white"></rect>
+  <text x="10" y="165" style="font-family: 'Courier'; font-style: normal">Bill</text>
+  <line x1="30" y1="140" x2="30" y2="155" stroke="black"></line>
+  <text x="25" y="130" style="font-family: 'Courier'; font-style: normal">N</text>
+  <line x1="30" y1="105" x2="30" y2="120" stroke="black"></line>
+  <text x="20" y="95" style="font-family: 'Courier'; font-style: normal">N&apos;</text>
+  <line x1="30" y1="70" x2="30" y2="85" stroke="black"></line>
+  <text x="20" y="60" style="font-family: 'Courier'; font-style: normal">NP</text>
+  <line x1="160" y1="35" x2="30" y2="50" stroke="black"></line>
+  <text x="60" y="130" style="font-family: 'Courier'; font-style: normal">[PAST]</text>
+  <line x1="90" y1="105" x2="90" y2="120" stroke="black"></line>
+  <text x="85" y="95" style="font-family: 'Courier'; font-style: normal">T</text>
+  <line x1="190" y1="70" x2="90" y2="85" stroke="black"></line>
+  <text x="130" y="270" style="font-family: 'Courier'; font-style: normal">suddenly</text>
+  <line x1="170" y1="245" x2="170" y2="260" stroke="black"></line>
+  <text x="155" y="235" style="font-family: 'Courier'; font-style: normal">Adv</text>
+  <line x1="170" y1="210" x2="170" y2="225" stroke="black"></line>
+  <text x="150" y="200" style="font-family: 'Courier'; font-style: normal">Adv&apos;</text>
+  <line x1="170" y1="175" x2="170" y2="190" stroke="black"></line>
+  <text x="150" y="165" style="font-family: 'Courier'; font-style: normal">AdvP</text>
+  <line x1="220" y1="140" x2="170" y2="155" stroke="black"></line>
+  <text x="225" y="235" style="font-family: 'Courier'; font-style: normal">hit</text>
+  <line x1="240" y1="210" x2="240" y2="225" stroke="black"></line>
+  <text x="235" y="200" style="font-family: 'Courier'; font-style: normal">V</text>
+  <line x1="270" y1="175" x2="240" y2="190" stroke="black"></line>
+  <text x="265" y="270" style="font-family: 'Courier'; font-style: normal">a</text>
+  <line x1="270" y1="245" x2="270" y2="260" stroke="black"></line>
+  <text x="265" y="235" style="font-family: 'Courier'; font-style: normal">D</text>
+  <line x1="290" y1="210" x2="270" y2="225" stroke="black"></line>
+  <text x="285" y="340" style="font-family: 'Courier'; font-style: normal">car</text>
+  <line x1="300" y1="315" x2="300" y2="330" stroke="black"></line>
+  <text x="295" y="305" style="font-family: 'Courier'; font-style: normal">N</text>
+  <line x1="300" y1="280" x2="300" y2="295" stroke="black"></line>
+  <text x="290" y="270" style="font-family: 'Courier'; font-style: normal">N&apos;</text>
+  <line x1="300" y1="245" x2="300" y2="260" stroke="black"></line>
+  <text x="290" y="235" style="font-family: 'Courier'; font-style: normal">NP</text>
+  <line x1="290" y1="210" x2="300" y2="225" stroke="black"></line>
+  <text x="280" y="200" style="font-family: 'Courier'; font-style: normal">DP</text>
+  <line x1="270" y1="175" x2="290" y2="190" stroke="black"></line>
+  <text x="260" y="165" style="font-family: 'Courier'; font-style: normal">V&apos;</text>
+  <line x1="220" y1="140" x2="270" y2="155" stroke="black"></line>
+  <text x="210" y="130" style="font-family: 'Courier'; font-style: normal">V&apos;</text>
+  <line x1="220" y1="105" x2="220" y2="120" stroke="black"></line>
+  <text x="210" y="95" style="font-family: 'Courier'; font-style: normal">VP</text>
+  <line x1="190" y1="70" x2="220" y2="85" stroke="black"></line>
+  <text x="180" y="60" style="font-family: 'Courier'; font-style: normal">T&apos;</text>
+  <line x1="160" y1="35" x2="190" y2="50" stroke="black"></line>
+  <text x="150" y="25" style="font-family: 'Courier'; font-style: normal">TP</text></svg>
