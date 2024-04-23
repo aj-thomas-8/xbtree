@@ -78,4 +78,4 @@ def tag(sent):
     return simpl_tags
 
 #print(tag("I kicked an elephant in my pajamas"))
-print(tag("John suddenly hit a car"))
+#print(tag("John suddenly hit a cat"))

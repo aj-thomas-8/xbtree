@@ -6,12 +6,11 @@
     </head>
     <body>
         <h2>X-bar Parse Tree Generator</h2>
-        {% for image in data %}
-            <img src="/static/{{image}}" width="500" height="500"/>
-            <br>
-        {% endfor %}
-        <br>
         <label>Version 0.01</label>
+        <form method="post">
+            <input type="text" name="input_sentence"/>
+            <input type="submit" value="Parse" name="parse_sentence">
+        </form>
     </body>
 </html>
 
