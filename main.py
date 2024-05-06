@@ -24,9 +24,13 @@ def show_tree():
 
     return render_template('view.html', utc_dt=datetime.datetime.utcnow(), data=image_names)
 
+@app.route("/unstable", methods=['GET', 'POST'])
+def better_view():
+    return render_template('better_view.html', utc_dt=datetime.datetime.utcnow())
+
 @app.route("/index")
 @app.route("/", methods=['GET', 'POST'])
-def index():
+def legacy():
     if request.method == 'POST':
         sentence = request.form['input_sentence']
         tagger.tag(sentence)

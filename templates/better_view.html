@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>X-bar TreeGen</title>
+        <link rel="stylesheet" type="text/css" href="/static/styles.css">
+        <!-- Linking custom CSS for styling the webpage -->
+    </head>
+    <body>
+        <header>
+            <h1>X-bar Parse Tree Generator</h1>
+            <label>Version 0.02</label> <!-- Updated version number -->
+        </header>
+        
+        <section>
+            <p>This tool generates X-bar parse trees based on input sentences. Try it out below!</p>
+            <!-- Updated form with IDs -->
+            <form action="/generate_tree" method="post" id="sentenceForm">
+                <input type="text" name="sentence" id="sentenceInput" placeholder="Enter a sentence" required>
+                <button type="submit" id="generateButton">Generate Tree</button>
+            </form>
+            <!-- Loading text element -->
+            <p id="loadingText" style="display: none;">Generating tree...</p>
+        </section>
+
+        <section>
+            <h3>Sample Parse Tree</h3>
+            <!-- Updated image tag with ID -->
+            <img id="parseTreeImage" src="/static/parse_tree-0.svg" width="500" height="500" alt="Sample X-bar parse tree">
+        </section>
+
+        <footer>
+            <p>&copy; 2024 X-bar Tree Generator. All rights reserved.</p>
+        </footer>
+
+        <script src="/static/scripts.js"></script>
+        <!-- Linking JavaScript for dynamic functionalities -->
+    </body>
+</html>

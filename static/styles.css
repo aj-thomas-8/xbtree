@@ -1,0 +1,89 @@
+/* Example CSS for a high-tech and luxurious feel */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+/* Base Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background: #121212;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Section Styles */
+section {
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+/* Button Styling */
+button {
+    background-color: #4e54c8;  /* Gradient color 1 */
+    background-image: linear-gradient(315deg, #4e54c8 0%, #8f94fb 74%);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(78, 84, 200, 0.3);
+}
+
+/* Form Input Styling */
+input[type='text'] {
+    border: 2px solid #ddd;
+    border-radius: 50px;
+    padding: 10px 15px;
+    width: calc(100% - 46px); /* Adjust width based on padding and border */
+    margin-bottom: 10px;
+    transition: border-color 0.2s;
+}
+
+input[type='text']:focus {
+    border-color: #4e54c8; /* Match the button gradient color */
+    outline: none;
+}
+
+/* Tree Image Container */
+.parse-tree-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background: #121212;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section {
+        margin: 20px;
+    }
+}

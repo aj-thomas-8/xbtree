@@ -8,13 +8,13 @@ def get_tense(verb_pair):
         case "VBD":
             return ("[PAST]", "T")
         case _:
-            return ("[PRES]", T)
+            return ("[PRES]", "T")
 
 def simplify(pair):
     match pair[1]:
         case "NNP" | "NN" | "NNS" | "PRP":
             return (pair[0], "N")
-        case "VBD":
+        case "VBD" | "VBZ":
             return (pair[0], "V")
         case "RB":
             return (pair[0], "Adv")
@@ -32,7 +32,7 @@ def simplify_tags(tagged_sent):
 
     for i in range(0, len(tagged_sent)):
         # use regular expressions to match verb tags here
-        if tagged_sent[i][1] == "VBD":
+        if tagged_sent[i][1] == "VBD" or tagged_sent[i][1] == "VBZ":
             tense = get_tense(tagged_sent[i])
             for j in range(updated_tense, len(simplified_sent)):
                 if (simplified_sent[j][1] == "Adv"):
@@ -68,6 +68,8 @@ def tag(sent):
 
     #use the tagger on the sentence 'sent'
     tagged_sent = pos_tag(tokens)
+
+    print(tagged_sent)
 
     simpl_tags = simplify_tags(tagged_sent)
     
